@@ -1,16 +1,16 @@
 # Exercise-4 Read and Write Excel Data
 
 ### Reg No : 212221040020
-
+## Date:14/09/2024
 
 ## AIM: 
  To create a workflow in UiPath that reads data from an Excel file and writes the same data into another Excel file.
- 
 ## Activites Required:
-
-1.Excel Application Scope: Opens the Excel file to read or write data.
-2.Read Range: Reads data from an Excel sheet and stores it in a DataTable.
-3.Write Range: Writes data from a DataTable into another Excel sheet.
+  1.Excel Application Scope: Opens the Excel file to read or write data.
+  
+  2.Read Range: Reads data from an Excel sheet and stores it in a DataTable.
+  
+  3.Write Range: Writes data from a DataTable into another Excel sheet.
 
 ## Procedure:
   1. Start a Process naming "Excel" with a description.
@@ -28,7 +28,8 @@
   13. Set the SheetName  where you want to write the data
   14. Set the starting cell (e.g., "A1") where the data will be written.
   15. Make sure to check the Add Headers option if you want column headers in the target Excel file.
-  16. Save and Run the Project
+  16. Save and Run the Project.
+      
 ## Workflow:
 ![image](https://github.com/user-attachments/assets/4ba2ee0f-a6ff-4159-9617-016c8cc3902f)
 
